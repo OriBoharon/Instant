@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { Ng2SmartTableModule } from 'ng2-smart-table';
 import { AlertTableComponent } from './alert-table/alert-table.component';
 import { AlertsComponent } from './alerts/alerts.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,10 @@ import { AlertsComponent } from './alerts/alerts.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    Ng2SmartTableModule
+    Ng2SmartTableModule,
+    BrowserModule,
+    // import HttpClientModule after BrowserModule.
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

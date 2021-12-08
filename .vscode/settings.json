@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/b8a53e91-e6b8-480b-9985-d9a972b99295/resourceGroups/HAK-team6/providers/Microsoft.Web/sites/Instant",
+    "appService.deploySubpath": "."
+}
