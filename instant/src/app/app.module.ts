@@ -19,7 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     Ng2SmartTableModule,
     BrowserModule,
-    // import HttpClientModule after BrowserModule.
+    // import HttpClientModule after BrowserModule. blas
     HttpClientModule
   ],
   providers: [],
